@@ -1,0 +1,1 @@
+python3 setupB.py build_ext --inplace

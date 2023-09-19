@@ -1,0 +1,9 @@
+source cpp_VirtualEnv/bin/activate
+
+./scriptA.sh
+g++ -Wall -I/usr/include/python3.8 code_cpp_A.cpp -L/lib -lpython3.8 -o code_cpp_A
+./code_cpp_A
+
+./scriptB.sh
+g++ -Wall -I/usr/include/python3.8 code_cpp_B.cpp -L/lib -lpython3.8 -o code_cpp_B
+./code_cpp_B

@@ -1,0 +1,8 @@
+cdef divide_withoutParam()
+cdef multiply_withoutParam()
+cdef add_withoutParam()
+cdef subtract_withoutParam()
+cdef divide(float a, float b)
+cdef multiply(float a, float b)
+cdef add(float a, float b)
+cdef subtract(float a, float b)

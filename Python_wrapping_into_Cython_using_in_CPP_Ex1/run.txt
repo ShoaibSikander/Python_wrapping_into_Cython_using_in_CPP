@@ -1,0 +1,8 @@
+Execute following commands:
+
+./script.sh
+python3 run.py
+
+./script.sh
+g++ -Wall -I/usr/include/python3.8 run.cpp -L/lib -lpython3.8 -o run
+./run
